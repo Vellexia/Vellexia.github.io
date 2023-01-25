@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-alyssa-house",
-      "name": "Alyssa House",
+      "id": "0-friends-house",
+      "name": "Friends House",
       "levels": [
         {
           "tileSize": 256,
@@ -28,9 +28,9 @@ var APP_DATA = {
       ],
       "faceSize": 2944,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 2.936994808597264,
+        "pitch": 0.0989057145935206,
+        "fov": 1.2933824216075565
       },
       "linkHotspots": [
         {
@@ -43,7 +43,7 @@ var APP_DATA = {
           "yaw": 1.220801942385613,
           "pitch": 0.04486706508100724,
           "rotation": 0,
-          "target": "2-thanalannight"
+          "target": "2-thanalan-night"
         }
       ],
       "infoHotspots": []
@@ -85,14 +85,14 @@ var APP_DATA = {
           "yaw": 0.9456056223882907,
           "pitch": 0.2697465664407659,
           "rotation": 0,
-          "target": "0-alyssa-house"
+          "target": "0-friends-house"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-thanalannight",
-      "name": "ThanalanNight",
+      "id": "2-thanalan-night",
+      "name": "Thanalan Night",
       "levels": [
         {
           "tileSize": 256,
@@ -118,22 +118,22 @@ var APP_DATA = {
       ],
       "faceSize": 2944,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -2.1746851692029345,
+        "pitch": 0.13694637405256316,
+        "fov": 1.2933824216075565
       },
       "linkHotspots": [
         {
           "yaw": -2.9231140684084025,
           "pitch": -0.12403938171320128,
           "rotation": 0,
-          "target": "0-alyssa-house"
+          "target": "0-friends-house"
         },
         {
           "yaw": -0.0036375300871078764,
           "pitch": -0.16512201005986427,
           "rotation": 0,
-          "target": "3-sleepytime"
+          "target": "3-sleepy-time"
         },
         {
           "yaw": 0.767609678256111,
@@ -145,8 +145,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "3-sleepytime",
-      "name": "SleepyTime",
+      "id": "3-sleepy-time",
+      "name": "Sleepy Time",
       "levels": [
         {
           "tileSize": 256,
@@ -168,16 +168,16 @@ var APP_DATA = {
       ],
       "faceSize": 1536,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.1193183519263421,
+        "pitch": 0.2649096868778251,
+        "fov": 1.2933824216075565
       },
       "linkHotspots": [
         {
           "yaw": 2.993013724554878,
           "pitch": 0.08530471907016235,
           "rotation": 0,
-          "target": "2-thanalannight"
+          "target": "2-thanalan-night"
         }
       ],
       "infoHotspots": []
@@ -219,7 +219,7 @@ var APP_DATA = {
           "yaw": 1.0501614368494607,
           "pitch": -0.048852495441774835,
           "rotation": 0,
-          "target": "2-thanalannight"
+          "target": "2-thanalan-night"
         }
       ],
       "infoHotspots": []
@@ -230,6 +230,6 @@ var APP_DATA = {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
     "fullscreenButton": true,
-    "viewControlButtons": true
+    "viewControlButtons": false
   }
 };
