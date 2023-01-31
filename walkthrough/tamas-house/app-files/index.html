@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tama&#39;s House</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-th01">
+        <li class="text">TH01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-th02">
+        <li class="text">TH02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-th03">
+        <li class="text">TH03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-th04">
+        <li class="text">TH04</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-th05">
+        <li class="text">TH05</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-th06">
+        <li class="text">TH06</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-th07">
+        <li class="text">TH07</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-th08a">
+        <li class="text">TH08a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-th08b">
+        <li class="text">TH08b</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-th09">
+        <li class="text">TH09</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-th10">
+        <li class="text">TH10</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-th11">
+        <li class="text">TH11</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-th12">
+        <li class="text">TH12</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-th13">
+        <li class="text">TH13</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-th14">
+        <li class="text">TH14</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-th15">
+        <li class="text">TH15</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-th17">
+        <li class="text">TH17</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-th18">
+        <li class="text">TH18</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-th19">
+        <li class="text">TH19</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-th20">
+        <li class="text">TH20</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-th21">
+        <li class="text">TH21</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
